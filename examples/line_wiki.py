@@ -2,7 +2,8 @@
 import numpy as np
 
 from ge.classify import read_node_label, Classifier
-from ge import LINE
+# from ge import LINE
+from ge.models.line import LINE #because should modify 'keep_dims' to 'keepdims' for models/line.py
 from sklearn.linear_model import LogisticRegression
 
 import matplotlib.pyplot as plt
